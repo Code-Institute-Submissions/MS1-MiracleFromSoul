@@ -281,7 +281,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("/images/Hope.jpg") top center;
+  background: url("/assets/images/Hope.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -401,4 +401,127 @@ section {
 .breadcrumbs p {
   font-size: 36px;
   margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .content h3 {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.img-fluid {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*--------------------------------------------------------------
+# Gallery
+--------------------------------------------------------------*/
+.gallery .part {
+  text-align: center;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #eef0ef;
+}
+
+.gallery .part img {
+  margin: -1px -1px 30px -1px;
+}
+
+.gallery .part .part-content {
+  padding: 0;
+}
+
+.gallery .part h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+.gallery .part span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+#Contact-form {
+    height: 85vh;
+}
+
+.information {
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #282828;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #505050;
+}
+.btn:focus {
+    background-color: #c4c4c4;
+    box-shadow: none;
+}
+
+.form-control:valid {
+  background-color:  #f5f5f5!important;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  color: #282828;
+  font-size: 14px;
+  background: #c4c4c4;
+}
+
+#footer .credits {
+  padding-top: 5px;
+  font-size: 13px;
+}
+
+#footer .credits a {
+  color: #282828;
+  transition: 0.3s;
+}
+
+#footer .credits a:hover {
+  color: #505050;
+}
+
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #282828;
+  color: #fff;
+
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+  background: #505050;
+  color: #fff;
+  text-decoration: none;
 }
