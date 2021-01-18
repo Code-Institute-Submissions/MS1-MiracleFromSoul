@@ -61,9 +61,13 @@ All users will have a opportunity to contact artist via their **social media** a
 
 - Greyscale was used to expose the colourfulness of artist's work and the environment they operate in.
 
-![Color Palette](project/color-palette.JPG)
+![Color Palette](/assets/project/color-palette.JPG)
 
 ### Typography
+
+- [Font](https://fonts.google.com/) Caveat Brush was used throughout the project, as per artist's advice to keep it consistant with the logos artist is using outside this page.
+
+- [IcoFont](https://icofont.com/) icons for social media links in footer were imported along with the single page application template 
 
 ### Images
 
@@ -90,9 +94,9 @@ Website allows user to find out about the artist's life and inspirations, view t
 
 - **About** - allows users to find out about the artist, their life and inspirations.
 
-- **Gallery** - allows users to view artist's work, find out information about each individual painting (work's title, size of painting and method by which it has been created) 
+- **Gallery** - allows users to view artist's work, find out information about each individual painting (work's title & size of painting).
 
-- **Contact** - allows users to send email directly to artists. User are encouraged to order personalized piece of art, to provide links and ispirations to help artist understand what user needs.
+- **Contact** - allows users to send email directly to artists. Users are encouraged to order personalized piece of art, to provide links and ispirations to help artist understand what users need.
 
 ## Features Left to Implement
 
@@ -103,20 +107,51 @@ Website allows user to find out about the artist's life and inspirations, view t
 [Top](#table-of-content)
 # Technologies Used
 
-Project uses following technologies, libraries, etc:
-
 - [HTML](https://www.w3schools.com/html/html_intro.asp)
     - to provide content to a website.
+
 - [CSS](https://www.w3schools.com/css/)
     - to provide style to the content of the website.
-- [Balsamiq](https://balsamiq.com/)
+
+- [Figma](https://www.figma.com/)
     - to provide wireframe.
-- [Bootstrap](https://getbootstrap.com/)
-    - to provide framework to the website.
-- [Fontawsome](https://fontawesome.com/)
+
+- [Mentor](https://bootstrapmade.com/mentor-free-education-bootstrap-theme/)
+    - to provide template framework to this website.
+
+- [Bootsnipp](https://bootsnipp.com/snippets/5KRq8)
+    - to provide template framework for the contact section of this website.
+
+- [IcoFont](https://icofont.com/)
     - to provide icons to the website.
-- [ffonts](https://www.ffonts.net/)
-    - to provide free fonts to the website.
+
+- [Google Fonts](https://fonts.google.com/)
+    - to provide free font to the website.
+
+[Top](#table-of-content)
+# Languages
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+[Top](#table-of-content)
+# Frameworks
+
+- [Bootstrap](https://getbootstrap.com/)
+    - technology was used throughout the pages.
+
+- [Mentor](https://bootstrapmade.com/mentor-free-education-bootstrap-theme/)
+    - to provide template framework to this website.
+
+- [Bootsnipp](https://bootsnipp.com/snippets/5KRq8)
+    - to provide template framework for the contact section of this website.
+    
+[Top](#table-of-content)
+# Libraries
+
+[Top](#table-of-content)
+# Other
 
 [Top](#table-of-content)
 # Testing
@@ -143,6 +178,10 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 [Top](#table-of-content)
+# Bugs
+## Found and fixed ?????
+## Not fixed ?????
+[Top](#table-of-content)
 # Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -159,7 +198,9 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Content
 
-- The text for sections was written by me.
+- The quote on the home page comes from Frieda Khalo.
+
+- The text for sections was written by myself.
 
 ## Media
 
