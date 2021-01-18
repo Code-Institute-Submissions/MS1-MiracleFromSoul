@@ -79,7 +79,7 @@ All images come from the pictures taken by the artist herself:
 
 - Wireframe was developed using [Figma](https://www.figma.com/)
 
-- Wireframe of this single page application can be seen [here]()
+- Wireframe of this single page application can be seen [here](https://www.figma.com/proto/lThdyqeH1xkHiQkp9kkOMN/Miracle-from-Soul?node-id=22%3A17&scaling=min-zoom)
 
 [Top](#table-of-content)
 # Features
