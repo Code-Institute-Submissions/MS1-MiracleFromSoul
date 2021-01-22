@@ -1,6 +1,6 @@
 <h1 align="center">Code Institute Milestone Project 1 - "Miracle from Soul"</h1>
 
-![ONE% Mockup](project/MfS-mockup.JPG)
+![Miracle from Soul Mockup](project/MfS-mockup.JPG)
 
 Click [here]() to see live project.
 
