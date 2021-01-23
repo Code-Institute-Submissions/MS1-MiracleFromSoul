@@ -403,7 +403,9 @@ section {
 }
 
 .gallery .part img {
-  margin: -1px -1px 30px -1px;
+  margin: -1px -1px 5px -1px;
+  height: 350px;
+  width: 350px;
 }
 
 .gallery .part .part-content {

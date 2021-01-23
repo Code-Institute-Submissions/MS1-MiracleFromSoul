@@ -55,7 +55,8 @@ All users will have a opportunity to contact artist via their **social media** a
 
 - Website uses bootstrap single page application template called "Mentor" taken from [here](https://bootstrapmade.com/mentor-free-education-bootstrap-theme/). Template was heavily customize by me for the purposes of this project.
 
-- Single page application was used to assure the structure 
+- This template was heavily customized in terms of it's structure, style and content. The original template can be downloaded [here](https://bootstrapmade.com/mentor-free-education-bootstrap-theme/).
+
 - Template contains series of links to libraries stored in files that I have copied from the template's folder (folders "vendor" and "js" in assets).
 
 - Contact form template came from [Bootsnipp](https://bootsnipp.com/snippets/5KRq8) and was created by a user name "kastya".
@@ -64,15 +65,13 @@ All users will have a opportunity to contact artist via their **social media** a
 
 ### Colour
 
-- Colour palette used for this project was taken from [](https://www.w3schools.com/colors/colors_shades.asp).
+- Colour palette used for this project was taken from [w3schools website](https://www.w3schools.com/colors/colors_shades.asp).
 
 - All colours used for this project are in shades of gray: Nero (#282828), Gray77 (#C4C4C4), Whitesmoke (#F5F5F5).
 
-- Additional colour were used for hover effect: Matterhorn (#505050), Gray88 (#E0E0E0), Nobel (#989898), Trolley Gray (#808080)
+- Additional colours were used for hover effect: Matterhorn (#505050), Gray88 (#E0E0E0), Nobel (#989898), Trolley Gray (#808080)
 
 - Greyscale was used to expose the colourfulness of artist's work and the environment they operate in.
-
-![Color Palette](/assets/project/color-palette.JPG)
 
 ### Typography
 
