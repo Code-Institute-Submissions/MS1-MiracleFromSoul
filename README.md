@@ -55,6 +55,7 @@ All users will have a opportunity to contact artist via their **social media** a
 
 - Website uses bootstrap single page application template called "Mentor" taken from [here](https://bootstrapmade.com/mentor-free-education-bootstrap-theme/). Template was heavily customize by me for the purposes of this project.
 
+- Single page application was used to assure the structure 
 - Template contains series of links to libraries stored in files that I have copied from the template's folder (folders "vendor" and "js" in assets).
 
 - Contact form template came from [Bootsnipp](https://bootsnipp.com/snippets/5KRq8) and was created by a user name "kastya".
