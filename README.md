@@ -215,14 +215,34 @@ If this section grows too long, you may want to split it off into a separate fil
 [Top](#table-of-content)
 # Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+## Begining
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+- I have used the cloud-based IDE [Gitpod](https://gitpod.io/) and [GitHub](http://github.com/) as a free git repository hosting.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+- As first step, I have installed the [Gitpod extension](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki) for Chrome browser that I use.
+
+- Next, I created repository on [Github](https://github.com/) using the gitpod template provided by the [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template).
+
+- Then, I clicked on "Gitpod" button, which opened workspace in Gitpod, where I created my project.
+
+- Once in Gitpod, the following commands were used while developing this project:
+    - "git add (file name)" - to add files for staging.
+    - "git status" - to see what is the current status of directory and staging area.
+    - "git commit -m "(description of action taken)" - to commit changes along with short comment of what was done.
+    - "git push" - to push commits to Github.
+    - "python3 -m http.server" - to open ports allowing me to view the current state of the website in Chrome.
+
+## Running project locally
+
+- In order to run this project locally, follow the below steps:
+
+    - Click on the [link](https://github.com/LucasCegielski/MS1-MiracleFromSoul) to this project's repository in GitHub (you must be logged into your own Github account).
+    - Click on the dropdown menu Code button located next to green "Gitpod" button.
+    - Click on "Open with GitHub Desktop" to clone and open the repository locally.
+    - Click on the "Choose" option and navigate to the local path where the cloned repository should be located.
+    - Click "Clone"
+
+- For more details on how to clone repository in Github click [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 [Top](#table-of-content)
 # Credits
