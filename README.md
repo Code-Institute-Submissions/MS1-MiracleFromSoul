@@ -21,7 +21,7 @@ personalized piece of art - via contact section.
 2.  [Features](#features)
     - [Existing Features](#existing-features)
     - [Features left to Implement](#features-left-to-implement)
-3.  [Technologies](#technologies)
+3.  [Technologies](#technologies-used)
 4.  [Languages](#languages)
 5.  [Frameworks](#frameworks)
 6.  [Libraries](#libraries)
@@ -137,6 +137,9 @@ Website allows user to find out about the artist's life and inspirations, view t
 
 - [Google Fonts](https://fonts.google.com/)
     - to provide free font to the website.
+
+- [Freeformatter](https://www.freeformatter.com/html-formatter.html)
+    - to beautify the HTML code.
 
 [Top](#table-of-content)
 # Languages
