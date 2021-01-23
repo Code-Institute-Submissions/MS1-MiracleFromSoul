@@ -51,6 +51,16 @@ All users will have a opportunity to contact artist via their **social media** a
 
 ## Design
 
+### Templates
+
+- Website uses bootstrap single page application template called "Mentor" taken from [here](https://bootstrapmade.com/mentor-free-education-bootstrap-theme/). Template was heavily customize by me for the purposes of this project.
+
+- Template contains series of links to libraries stored in files that I have copied from the template's folder (folders "vendor" and "js" in assets).
+
+- Contact form template came from [Bootsnipp](https://bootsnipp.com/snippets/5KRq8) and was created by a user name "kastya".
+
+- Template also contains some script links below the footer. Those also came in package.
+
 ### Colour
 
 - Colour palette used for this project was taken from [](https://www.w3schools.com/colors/colors_shades.asp).
@@ -150,8 +160,29 @@ Website allows user to find out about the artist's life and inspirations, view t
 [Top](#table-of-content)
 # Libraries
 
+- Libraries used in the project came along with the [template](#templates).
+
 [Top](#table-of-content)
 # Other
+
+## Excessive code
+
+Due to the use of [templates](#templates), some extra code that seems excesive, can be found throughout the project. 
+I removed the parts of the code that seemed unnecessary, since whole sections were removed while styling templates 
+for the purposes of this project. Some parts of the code still seem unrelated to the project, but when removed cripple 
+the website in some ways and cause issues with styling, layout or functionality. I have allocated hours at the time to 
+find out which lines of code can be removed, kept refreshing the site and checking functionalities in mobile, tablet and 
+desktop view.
+
+## Lessons learned
+
+The use of bootstrap templates theoretically makes work more efficient, since it provides big parts of code. However, if
+one does not posesses in-depth knowledge of the topic, it can be then time consuming to then tailor the code for ones own
+purposes.
+
+In the process of removing the excessive code, I have reduced half the lines of code in both index.html and style.css files.
+However, through trial and error, I found out that certain lines of code, even tough they seemed unrelated, when removed,
+cause certain parts of website to crash.
 
 [Top](#table-of-content)
 # Testing
@@ -210,8 +241,12 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 - My Mentor Seun, for help and inspirations.
 
+- My Mentor Aaron, for help and inspirations (for organizational purposes my Mentor was replaced on my request).
+
+- Tutors for feedback, much appreciated help and guidance. 
+
 - My Sister, the artist, for pictures, some good ideas and inspirations.
 
-- Slack and Github community for feedback and troubleshoot throughout.
+- [Stackoverflow](https://stackoverflow.com/), Slack and Github communities for feedback and troubleshoot throughout.
 
 [Top](#table-of-content)
