@@ -21,7 +21,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Caveat Brush", cursive;
 }
 
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -51,7 +50,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
@@ -69,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  box-shadow: 0px 0 18px rgba(55, 66, 59, 0.0);
+  box-shadow: 0 0 18px rgba(55, 66, 59, 0.0);
 }
 
 #header .logo {
@@ -96,7 +94,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -120,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #37423b;
+  color: #282828;
   transition: 0.3s;
   font-size: 20px;
   font-family: "Caveat Brush", cursive;
@@ -141,7 +138,6 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   padding: 10px 0;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
 }
@@ -162,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #37423b;
+  color: #282828;
 }
  .nav-menu .drop-down ul a:hover {
      color: #c4c4c4;
@@ -185,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #37423b;
+  color: #282828;
 }
 
 .mobile-nav {
@@ -256,7 +252,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(32, 38, 34, 0.6);
+  background: rgba(128, 128, 128, 0.6);
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
@@ -284,16 +280,6 @@ h1, h2, h3, h4, h5, h6 {
   background: url("/assets/images/Hope.jpg") top center;
   background-size: cover;
   position: relative;
-}
-
-#hero:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.1);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
 }
 
 #hero .container {
@@ -350,7 +336,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f6f7f6;
+  background-color: #f5f5f5;
 }
 
 .section-title {
@@ -387,11 +373,6 @@ section {
   font-size: 32px;
 }
 
-.img-fluid {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
@@ -399,7 +380,7 @@ section {
   text-align: center;
   margin-bottom: 20px;
   background: #fff;
-  border: 1px solid #eef0ef;
+  border: 1px solid #f5f5f5;
 }
 
 .gallery .part img {
@@ -427,8 +408,6 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-
-
 .information {
     font-size: 22px;
     padding-top: 10px;
