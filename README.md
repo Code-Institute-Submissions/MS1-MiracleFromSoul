@@ -190,8 +190,39 @@ cause certain parts of website to crash.
 [Top](#table-of-content)
 # Testing
 
+I have performed thorough testing of this project's website and all of it's functionalities.
 
+Also all features within this README file were tested.
 
+Code:
+
+- The HTML code was tested using [Freeformatter](https://www.freeformatter.com/html-validator.html)
+
+Browsers:
+
+- project was tested in Chrome browser only. Mozilla and Firefox browser where crashing my laptop when installed. I tried to fix this issue, but it seems that due to equipment mulfunction, I can only test this project in Chrome.
+
+Desktop, Tablet & Mobile view:
+
+Links:
+
+- all links on this website were thoroughly tested,
+- all tags in navbar lead to correct section of the website
+- all links open in new window (social media links & credits link in footer),
+
+Contact Form:
+
+- Contact form was tested by trying to input incorrect data (i.e. letters in numbers field) or no data at all and displays error before the submit can be done.
+
+Back-to-top arrow:
+
+- Arrow is correctly displayed, the hover effect shows user it is active and performs correct action whne clicked (takes user to the top of the page).
+
+Readme file:
+
+- Table of contents remains interactive and takes user to correct parts of the file.
+
+- Back-to-top link feature was added at the end of each chapter to allow user to easily navigate the file. 
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -213,8 +244,12 @@ If this section grows too long, you may want to split it off into a separate fil
 
 [Top](#table-of-content)
 # Bugs
-## Found and fixed ?????
-## Not fixed ?????
+
+## Found and fixed
+
+## Not fixed
+
+
 [Top](#table-of-content)
 # Deployment
 
@@ -266,7 +301,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - My Mentor Aaron, for help and inspirations (for organizational purposes my Mentor was replaced on my request).
 
-- Tutors for feedback, much appreciated help and guidance. 
+- Tutor Igor for very clear feedback and much appreciated help & guidance. 
 
 - My Sister, the artist, for pictures, some good ideas and inspirations.
 
