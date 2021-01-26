@@ -51,15 +51,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
-}
-
-/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
@@ -222,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav .drop-down > a:after {
   content: "\ea99";
-  font-family: Caveat Brush;
+  font-family: "Caveat Brush", cursive;
   padding-left: 10px;
   position: absolute;
   right: 15px;
@@ -292,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#hero h1 {
+#hero h2 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
@@ -301,7 +292,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Caveat Brush", cursive;
 }
 
-#hero h2 {
+#hero h3 {
   color: #eee;
   margin: 10px 0 0 0;
   font-size: 24px;

@@ -2,7 +2,7 @@
 
 ![Miracle from Soul Mockup](documentation/MfS-mockup.jpg)
 
-Click [here]() to see live project.
+Click [here](https://github.com/LucasCegielski/MS1-MiracleFromSoul) to see live project.
 
 # Miracle from Soul
 
@@ -17,7 +17,7 @@ personalized piece of art - via contact section.
 1.  [User experience](#user-experience)
     - [User Stories](#user-stories)
     - [Design](#design)
-    - [Wireframes](#wireframes)
+    - [Wireframe](#wireframe)
 2.  [Features](#features)
     - [Existing Features](#existing-features)
     - [Features left to Implement](#features-left-to-implement)
@@ -53,9 +53,8 @@ All users will have a opportunity to contact artist via their **social media** a
 
 ### Templates
 
-- Website uses bootstrap single page application template called "Mentor" taken from [here](https://bootstrapmade.com/mentor-free-education-bootstrap-theme/). Template was heavily customize by me for the purposes of this project.
-
-- This template was heavily customized in terms of it's structure, style and content. The original template can be downloaded [here](https://bootstrapmade.com/mentor-free-education-bootstrap-theme/).
+- Website uses bootstrap single page application template called "Mentor" and can be downloaded [here](https://bootstrapmade.com/mentor-free-education-bootstrap-theme/). 
+Template was heavily customize by me for the purposes of this project. Read more [below](#other).
 
 - Template contains series of links to libraries stored in files that I have copied from the template's folder (folders "vendor" and "js" in assets).
 
@@ -89,11 +88,12 @@ All images come from the pictures taken by the artist herself:
 
 - "Studio" image in "About" section of the website presents the studio in which artist works.
 
-## Wireframes
+## Wireframe
 
 - Wireframe was developed using [Figma](https://www.figma.com/)
 
-- Wireframe of this single page application can be seen [here](https://www.figma.com/proto/lThdyqeH1xkHiQkp9kkOMN/Miracle-from-Soul?node-id=22%3A17&scaling=min-zoom)
+- Wireframe of this single page application can be seen in browser [here](https://www.figma.com/proto/lThdyqeH1xkHiQkp9kkOMN/Miracle-from-Soul?node-id=22%3A17&scaling=min-zoom)
+or in the documentation folder in this project in .jpg file.
 
 [Top](#table-of-content)
 # Features
@@ -123,6 +123,9 @@ Website allows user to find out about the artist's life and inspirations, view t
 - [CSS](https://www.w3schools.com/css/)
     - to provide style to the content of the website.
 
+- [Java Script](https://www.javascript.com/)
+    - to provide some functionalities within a template used.
+
 - [Figma](https://www.figma.com/)
     - to provide wireframe.
 
@@ -141,12 +144,26 @@ Website allows user to find out about the artist's life and inspirations, view t
 - [Freeformatter](https://www.freeformatter.com/html-formatter.html)
     - to beautify the HTML code.
 
+- [W3C Validator](https://validator.w3.org/nu/#textarea)
+    - to validate HTML code.
+
+- [Jigsaw W3C Validator](https://jigsaw.w3.org/css-validator/validator)
+    - to validate CSS code by input.
+
+- [Am I responsive](http://ami.responsivedesign.is/#)
+    - to test mobile devices responsiveness of my website.
+
+- [Techsini](https://techsini.com/multi-mockup/)
+    - to create this project mockup, of which image is placed at the very top of this readme file.
+
 [Top](#table-of-content)
 # Languages
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 
 - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+- [Java Script](https://www.javascript.com/)
 
 [Top](#table-of-content)
 # Frameworks
@@ -175,7 +192,16 @@ I removed the parts of the code that seemed unnecessary, since whole sections we
 for the purposes of this project. Some parts of the code still seem unrelated to the project, but when removed cripple 
 the website in some ways and cause issues with styling, layout or functionality. I have allocated hours at the time to 
 find out which lines of code can be removed, kept refreshing the site and checking functionalities in mobile, tablet and 
-desktop view.
+desktop view, looking those functionalities up on the internet and learning plenty in a process.
+
+Both HTML and CSS code were very heavily edited, by myself, for the purposes of this project, including the order of code lines, 
+swapping whole modules of code, changing parameters and almost every aspect of the style. The only reason I used the template 
+in the first place was to assure the single page application structure.
+
+None of the course's mini-projects used Bootstrap's single page application, so I have used the said template to provide the
+blueprint for this project.
+
+Code of the original template I have used can beviewed here: [HTML](documentation/original.html) & [CSS](documentation/original.css).
 
 ## Lessons learned
 
@@ -196,13 +222,21 @@ Also all features within this README file were tested.
 
 Code:
 
-- The HTML code was tested using [Freeformatter](https://www.freeformatter.com/html-validator.html)
+- The HTML code was tested using [Jigsaw](https://jigsaw.w3.org/css-validator/validator) and produced some minor errors that I have cleared.
+
+- The CSS code was tested using [W3C Validator](https://validator.w3.org/nu/#textarea) and produced some minor errors that I have cleared.
 
 Browsers:
 
 - project was tested in Chrome browser only. Mozilla and Firefox browser where crashing my laptop when installed. I tried to fix this issue, but it seems that due to equipment mulfunction, I can only test this project in Chrome.
 
 Desktop, Tablet & Mobile view:
+
+- Website's responsivness was tested on mobile devices with a use of:
+
+    - ["Am I responsive"](http://ami.responsivedesign.is/#) facility.
+
+    - Google Chrome DevTools.
 
 Links:
 
@@ -214,9 +248,11 @@ Contact Form:
 
 - Contact form was tested by trying to input incorrect data (i.e. letters in numbers field) or no data at all and displays error before the submit can be done.
 
+- When valid data is input, form sends data as intended. Code Institute formdump was used in this project.
+
 Back-to-top arrow:
 
-- Arrow is correctly displayed, the hover effect shows user it is active and performs correct action whne clicked (takes user to the top of the page).
+- Arrow is correctly displayed, the hover effect shows user it is active and performs correct action when clicked (takes user to the top of the page).
 
 Readme file:
 
@@ -224,31 +260,16 @@ Readme file:
 
 - Back-to-top link feature was added at the end of each chapter to allow user to easily navigate the file. 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 [Top](#table-of-content)
 # Bugs
 
-## Found and fixed
+Most bugs were cleared thanks to my Mentor Aaron, Tutor Igor and the use of the HTML and CSS validators.
 
 ## Not fixed
 
+- Some images across the project, sometimes are not opening immediately and require a second page refresh with cleared cache (ctrl + refresh).
+
+- When you look at the dropdown menu taking you to social media links in navbar (in mobile or tablet view), the arrow turns into a rectangle.
 
 [Top](#table-of-content)
 # Deployment
@@ -278,18 +299,18 @@ If this section grows too long, you may want to split it off into a separate fil
     - Click on the dropdown menu Code button located next to green "Gitpod" button.
     - Click on "Open with GitHub Desktop" to clone and open the repository locally.
     - Click on the "Choose" option and navigate to the local path where the cloned repository should be located.
-    - Click "Clone"
+    - Click "Clone".
 
-- For more details on how to clone repository in Github click [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+- For more details on how to clone repository in Github see [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 [Top](#table-of-content)
 # Credits
 
 ## Content
 
-- The quote on the home page comes from Frieda Khalo.
+- The quote on the home page comes from artist Frieda Khalo.
 
-- The text for sections was written by myself.
+- The text for sections was written by myself based on the materials provided by the artist.
 
 ## Media
 
