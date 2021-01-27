@@ -6,7 +6,7 @@ Click [here](https://github.com/LucasCegielski/MS1-MiracleFromSoul) to see live 
 
 # Miracle from Soul
 
-Miracle from Soul is a website of an polish artist, who is selling their paintings in Ireland.
+**Miracle from Soul** is a website of an polish artist Natalia Cegielska, my Sister, who is selling her paintings in Ireland.
 
 Website will not only present the existing work of the artist, allow the user to purchase the art 
 (feature to be introduced later), but also allows users to contact the artist and by providing inspirations, order the
@@ -51,9 +51,20 @@ All users will have a opportunity to contact artist via their **social media** a
 
 ## Design
 
+When choosing the theme for this project, I have looked at 100s of websites related to art and found out that most of them are
+rather difficult to navigate. I had the feeling that those sites are almost "too artistic" to keep any user, who is not an artist,
+from loosing interest in navigating them. Almost as if the sites were made by artists, for artists. I felt lost and "out of my league"
+when navigating those sites.
+On the other hand, most of the Bootstrap based sites, as it was mentioned during the course, look quite similar.
+I deicided to go with something very simple, assuming the users are not artists looking for inspiration, 
+but average people interested in buying art.
+I chose the single-page application (SPA), as I believe, website this size, with limited amount of images and text, 
+is more compact and therefore easier to navigate. I also think that potentially, when switching between pages of more traditional
+multiple-page application, the page reload time can have a negative impact on UX.
+
 ### Templates
 
-- Website uses bootstrap single page application template called "Mentor" and can be downloaded [here](https://bootstrapmade.com/mentor-free-education-bootstrap-theme/). 
+- Website uses bootstrap single-page application (SPA) template called "Mentor" and can be downloaded [here](https://bootstrapmade.com/mentor-free-education-bootstrap-theme/). 
 Template was heavily customize by me for the purposes of this project. Read more [below](#other).
 
 - Template contains series of links to libraries stored in files that I have copied from the template's folder (folders "vendor" and "js" in assets).
@@ -107,6 +118,9 @@ Website allows user to find out about the artist's life and inspirations, view t
 - **Gallery** - allows users to view artist's work, find out information about each individual painting (work's title & size of painting).
 
 - **Contact** - allows users to send email directly to artists. Users are encouraged to order personalized piece of art, to provide links and ispirations to help artist understand what users need.
+
+- **Social Media** links open in new tab and so far only Facebook and Instagram links take user directly to artist's accounts. 
+Artist doesn't have Twitter or Skype account as of now, therefore those links take user to generic location of the two applications.
 
 ## Features Left to Implement
 
@@ -209,7 +223,9 @@ The use of bootstrap templates theoretically makes work more efficient, since it
 one does not posesses in-depth knowledge of the topic, it can be then time consuming to then tailor the code for ones own
 purposes.
 
-In the process of removing the excessive code, I have reduced half the lines of code in both index.html and style.css files.
+In the process of removing the excessive code, I have reduced half the lines of code in index.html and over 2/3 in style.css files.
+The remaining lines of code where all looked into and, as I have mentioned already, I have learned about functionalities and 
+features (like hero image carousel, etc.), that were in the end not applied to this project.
 However, through trial and error, I found out that certain lines of code, even tough they seemed unrelated, when removed,
 cause certain parts of website to crash.
 
