@@ -36,15 +36,17 @@ personalized piece of art - via contact section.
 
 ## User Stories
 
-- Regular Visitor Goals
-    - As a Regular Visitor, I want to be able to navigate the website with ease and be able to navigate all it's features.
-    - As a Regular Visitor, I want to find out about the artist, who they are and what inspires them, know they story.
-    - As a Regular Visitor, I want to see artist's work.
-- Commercial Visitor Goals
-    - As a Commercial Visitor, I want to find out who the artist is.
-    - As a Commercial Visitor, I want to see artist's work and be able to purchase it.
-    - As a Commercial Visitor, I want to be able to get in touch with the artist via multiple means of contact.
-    - As a Commercial Visitor, I want to be able to order personalized piece of art.
+- ### Regular Visitor Goals
+    1. As a Regular Visitor, I want to be able to navigate the website with ease
+    2. As a Regular Visitor, I want to be able to navigate all of this application's features.
+    3. As a Regular Visitor, I want to find out about the artist, who they are and what inspires them, know they story.
+    4. As a Regular Visitor, I want to see artist's work.
+
+- ### Commercial Visitor Goals
+    1. As a Commercial Visitor, I want to find out who the artist is.
+    2. As a Commercial Visitor, I want to see artist's work and be able to purchase it.
+    3. As a Commercial Visitor, I want to be able to get in touch with the artist via multiple means of contact.
+    4. As a Commercial Visitor, I want to be able to order personalized piece of art.
 
 ## Design
 
@@ -225,12 +227,43 @@ cause certain parts of website to crash.
 [Top](#table-of-content)
 # Testing
 
+## General
 I have performed thorough testing of this project's website and all of it's functionalities. Also all features within this README file were tested.
 
 - The HTML code was tested using [Jigsaw](https://jigsaw.w3.org/css-validator/validator) and produced some minor errors that I have cleared - [RESULTS]()
 
 - The CSS code was tested using [W3C Validator](https://validator.w3.org/nu/#textarea) and produced some minor errors that I have cleared - [RESULTS]()
 
+## Testing User Stories from USer Experience (UX) Section
+
+- ### Regular Visitor Goals
+    1. As a Regular Visitor, I want to be able to navigate the website with ease
+        - Website is free of pop-ups and the colour palette used makes it easy to read.
+        - Navbar is stuck to the top of the screen, therefore accessible at any time.
+        - Website was fitted with the back-to-top button, that is always placed convieniently at the bottom corner of the screen. When clicked or tapped, takes user to the very top of the page.
+
+    2. As a Regular Visitor, I want to be able to navigate all of this application's features.
+        - When entering the website, user is greeted with clear and simple navigation bar, showing clear access to each part of the application.
+        - Navbar being stuck at the top of the screen allows user to locate all features quickly.
+        - Links to social media are located both in navbar and in the footer, so can be accessed with ease.
+
+    3. As a Regular Visitor, I want to find out about the artist, who they are and what inspires them, know they story.
+        - Font used throughout the project gives personal touch and artistic feeling of being in the "right" place.
+        - Hero image on the home page presents artist's work of art, so user is immediately shown artist's creation upon entering website.
+        - The About section is located conveniently just below the home page, for easy access.
+        - The About section presents user with information who the artist is and what inspires them. Also informs user about their technique.
+
+    4. As a Regular Visitor, I want to see artist's work.
+        - The Gallery page can be accessed from navbar via link.
+        - Gallery section contains very limited text (name and size of the painting) to allow user to focus on viewing the paintings.
+    
+- ### Commercial Visitor Goals
+    1. As a Commercial Visitor, I want to find out who the artist is.
+    2. As a Commercial Visitor, I want to see artist's work and be able to purchase it.
+    3. As a Commercial Visitor, I want to be able to get in touch with the artist via multiple means of contact.
+    4. As a Commercial Visitor, I want to be able to order personalized piece of art.
+
+## Further Testing
 Browsers:
 
 - project was tested in Chrome browser only. Mozilla and Firefox browser where crashing my laptop when installed. I tried to fix this issue, but it seems that due to equipment mulfunction, I can only test this project in Chrome.
@@ -243,10 +276,18 @@ Desktop, Tablet & Mobile view:
 
     - Google Chrome DevTools.
 
+- Application was viewed and tested on desktop, laptop, iPad Air, Huawei P30 Lite and Samsung Galaxy A3.
+
+- Most testing was done to assure correct look and that all links work properly.
+
+- Friends were asked to also test the application for bugs, etc.
+
 Links:
 
 - all links on this website were thoroughly tested,
+
 - all tags in navbar lead to correct section of the website
+
 - all links open in new window (social media links & credits link in footer),
 
 Contact Form:
