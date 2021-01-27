@@ -2,7 +2,7 @@
 
 ![Miracle from Soul Mockup](documentation/MfS-mockup.jpg)
 
-Click [here](https://github.com/LucasCegielski/MS1-MiracleFromSoul) to see live project.
+Click [here](https://lucascegielski.github.io/MS1-MiracleFromSoul/) to see live project.
 
 # Miracle from Soul
 
