@@ -35,19 +35,14 @@ personalized piece of art - via contact section.
 
 ## User Stories
 
-This website is for people interested in purchasing paintings made by particular polish artist.
-
-Website will be advertised via artists facebook page as another platform for viewing and purchasing art.
-
- - Users interested to find out about the artist will have a chance to find out about artist's story and inspirations in **About** section.
-
- - Users interested in viewing art will have access to artist's gallery in **Gallery** section.
-
- - Users interested in purchasing art will have a chance to add items from the gallery into basket, a feature that will be added in a later stage of development.
-
- - Users interested in ordering personalized painting form the artist will have a chance to explain what they need in **Contact** section.
-
-All users will have a opportunity to contact artist via their **social media** accounts and **contact form**.
+- Regular Visitor Goals
+    - As a Regular Visitor, I want to be able to navigate the website with ease and be able to navigate all it's features.
+    - As a Regular Visitor, I want to find out about the artist, who they are and what inspires them, know they story.
+    - As a Regular Visitor, I want to see artist's work.
+- Commercial Visitor Goals
+    - As a Commercial Visitor, I want to find out who the artist is.
+    - As a Commercial Visitor, I want to see artist's work and be able to purchase it.
+    - As a Commercial Visitor, I want to be able to get in touch with the artist via multiple means of contact.
 
 ## Design
 
