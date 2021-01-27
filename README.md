@@ -6,10 +6,10 @@ Click [here](https://lucascegielski.github.io/MS1-MiracleFromSoul/) to see live 
 
 # Miracle from Soul
 
-**Miracle from Soul** is a website of an polish artist Natalia Cegielska, my Sister, who is selling her paintings in Ireland.
+**Miracle from Soul** is a website of a polish artist Natalia Cegielska, my Sister, who is selling her paintings in Ireland.
 
 Website will not only present the existing work of the artist, allow the user to purchase the art 
-(feature to be introduced later), but also allows users to contact the artist and by providing inspirations, order the
+(feature to be introduced later), but also allows user to contact the artist and by providing inspirations, order the
 personalized piece of art - via contact section.
 
 # Table of Content
@@ -324,6 +324,8 @@ Most bugs were cleared thanks to my Mentor Aaron, Tutor Igor and the use of the 
 
 ## Content
 
+- Single-page application template called **Mentor** was used as blueprint for this project and can be viewed [here](https://bootstrapmade.com/mentor-free-education-bootstrap-theme/).
+
 - The quote on the home page comes from artist Frieda Khalo.
 
 - The text for sections was written by myself based on the materials provided by the artist.
@@ -343,5 +345,7 @@ Most bugs were cleared thanks to my Mentor Aaron, Tutor Igor and the use of the 
 - My Sister, the artist, for pictures, some good ideas and inspirations.
 
 - [Stackoverflow](https://stackoverflow.com/), Slack and Github communities for feedback and troubleshoot throughout.
+
+- [Code Institute Student Care](https://codeinstitute.net/) for all the much appreciated admin help.
 
 [Top](#table-of-content)
