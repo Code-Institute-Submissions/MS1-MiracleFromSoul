@@ -14,22 +14,23 @@ personalized piece of art - via contact section.
 
 # Table of Content
 
-1.  [User experience](#user-experience)
+1. [User experience](#user-experience)
     - [User Stories](#user-stories)
     - [Design](#design)
     - [Wireframe](#wireframe)
-2.  [Features](#features)
+2. [Features](#features)
     - [Existing Features](#existing-features)
     - [Features left to Implement](#features-left-to-implement)
-3.  [Technologies](#technologies-used)
-4.  [Languages](#languages)
-5.  [Frameworks](#frameworks)
-6.  [Libraries](#libraries)
-7.  [Other](#other)
-8.  [Testing](#testing)
-9.  [Bugs](#bugs)
-10. [Deployment](#deployment)
-11. [Credits](#credits)
+3. [Technologies Used](#technologies-used)
+    - [Technologies](#technologies)
+    - [Languages](#languages)
+    - [Frameworks](#frameworks)
+    - [Libraries](#libraries)
+    - [Other](#other)
+4. [Testing](#testing)
+5. [Bugs](#bugs)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
 
 # User Experience
 
@@ -43,6 +44,7 @@ personalized piece of art - via contact section.
     - As a Commercial Visitor, I want to find out who the artist is.
     - As a Commercial Visitor, I want to see artist's work and be able to purchase it.
     - As a Commercial Visitor, I want to be able to get in touch with the artist via multiple means of contact.
+    - As a Commercial Visitor, I want to be able to order personalized piece of art.
 
 ## Design
 
@@ -126,14 +128,7 @@ Artist doesn't have Twitter or Skype account as of now, therefore those links ta
 [Top](#table-of-content)
 # Technologies Used
 
-- [HTML](https://www.w3schools.com/html/html_intro.asp)
-    - to provide content to a website.
-
-- [CSS](https://www.w3schools.com/css/)
-    - to provide style to the content of the website.
-
-- [Java Script](https://www.javascript.com/)
-    - to provide some functionalities within a template used.
+## Technologies
 
 - [Figma](https://www.figma.com/)
     - to provide wireframe.
@@ -166,16 +161,19 @@ Artist doesn't have Twitter or Skype account as of now, therefore those links ta
     - to create this project mockup, of which image is placed at the very top of this readme file.
 
 [Top](#table-of-content)
-# Languages
+## Languages
 
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [HTML](https://www.w3schools.com/html/html_intro.asp)
+    - to provide content to a website.
 
-- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [CSS](https://www.w3schools.com/css/)
+    - to provide style to the content of the website.
 
 - [Java Script](https://www.javascript.com/)
+    - to provide some functionalities within a template used.
 
 [Top](#table-of-content)
-# Frameworks
+## Frameworks
 
 - [Bootstrap](https://getbootstrap.com/)
     - technology was used throughout the pages.
@@ -187,14 +185,14 @@ Artist doesn't have Twitter or Skype account as of now, therefore those links ta
     - to provide template framework for the contact section of this website.
     
 [Top](#table-of-content)
-# Libraries
+## Libraries
 
 - Libraries used in the project came along with the [template](#templates).
 
 [Top](#table-of-content)
-# Other
+## Other
 
-## Excessive code
+### Excessive code
 
 Due to the use of [templates](#templates), some extra code that seems excesive, can be found throughout the project. 
 I removed the parts of the code that seemed unnecessary, since whole sections were removed while styling templates 
@@ -212,7 +210,7 @@ blueprint for this project.
 
 Code of the original template I have used can beviewed here: [HTML](documentation/original.html) & [CSS](documentation/original.css).
 
-## Lessons learned
+### Lessons learned
 
 The use of bootstrap templates theoretically makes work more efficient, since it provides big parts of code. However, if
 one does not posesses in-depth knowledge of the topic, it can be then time consuming to then tailor the code for ones own
@@ -227,15 +225,11 @@ cause certain parts of website to crash.
 [Top](#table-of-content)
 # Testing
 
-I have performed thorough testing of this project's website and all of it's functionalities.
+I have performed thorough testing of this project's website and all of it's functionalities. Also all features within this README file were tested.
 
-Also all features within this README file were tested.
+- The HTML code was tested using [Jigsaw](https://jigsaw.w3.org/css-validator/validator) and produced some minor errors that I have cleared - [RESULTS]()
 
-Code:
-
-- The HTML code was tested using [Jigsaw](https://jigsaw.w3.org/css-validator/validator) and produced some minor errors that I have cleared.
-
-- The CSS code was tested using [W3C Validator](https://validator.w3.org/nu/#textarea) and produced some minor errors that I have cleared.
+- The CSS code was tested using [W3C Validator](https://validator.w3.org/nu/#textarea) and produced some minor errors that I have cleared - [RESULTS]()
 
 Browsers:
 
