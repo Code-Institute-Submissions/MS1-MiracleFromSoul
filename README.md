@@ -230,9 +230,9 @@ cause certain parts of website to crash.
 ## General
 I have performed thorough testing of this project's website and all of it's functionalities. Also all features within this README file were tested.
 
-- The HTML code was tested using [Jigsaw](https://jigsaw.w3.org/css-validator/validator) and produced some minor errors that I have cleared - [RESULTS]()
+- The CSS code was tested using [Jigsaw](https://jigsaw.w3.org/css-validator/validator) and produced some minor errors that I have cleared - [RESULTS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flucascegielski.github.io%2FMS1-MiracleFromSoul%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-- The CSS code was tested using [W3C Validator](https://validator.w3.org/nu/#textarea) and produced some minor errors that I have cleared - [RESULTS]()
+- The HTML code was tested using [W3C Validator](https://validator.w3.org/nu/#textarea) and produced no errors - [RESULTS](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucascegielski.github.io%2FMS1-MiracleFromSoul%2F)
 
 ## Testing User Stories from USer Experience (UX) Section
 
@@ -255,7 +255,7 @@ I have performed thorough testing of this project's website and all of it's func
 
     4. As a Regular Visitor, I want to see artist's work.
         - The Gallery page can be accessed from navbar via link.
-        - Gallery section contains very limited text (name and size of the painting) to allow user to focus on viewing the paintings.
+        - Gallery section contains very limited text (name and size of the painting) to allow user to focus on viewing the paintings - ![ScreenShot](documentation/screenshots/gallery.jpg)
     
 - ### Commercial Visitor Goals
     1. As a Commercial Visitor, I want to find out who the artist is.
@@ -320,7 +320,7 @@ Most bugs were cleared thanks to my Mentor Aaron, Tutor Igor and the use of the 
 [Top](#table-of-content)
 # Deployment
 
-## Beginning
+## Creating this project
 
 - I have used the cloud-based IDE [Gitpod](https://gitpod.io/) and [GitHub](http://github.com/) as a free git repository hosting.
 
@@ -336,6 +336,20 @@ Most bugs were cleared thanks to my Mentor Aaron, Tutor Igor and the use of the 
     - "git commit -m "(description of action taken)" - to commit changes along with short comment of what was done.
     - "git push" - to push commits to Github.
     - "python3 -m http.server" - to open ports allowing me to view the current state of the website in Chrome.
+
+## Github pages
+
+- Log in to Github and find the repository.
+
+- At the top of the repository (not in the header of the whole page) find the "Settings" button with a cogwheel icon and click on it.
+
+- Scroll down to "Github Pages" section.
+
+- Click on dropdown called "None" and select "Master Branch" so it looks like in the image below ![screenshot](./documentation/screenshots/githubpages1.jpg)
+
+- Click save next to it and wait for the page to refresh automatically. You will be taken back to the top of the settings page.
+
+- Scroll back down again to "Github Pages" section and find the link of now published page.
 
 ## Running project locally
 
