@@ -320,7 +320,7 @@ Most bugs were cleared thanks to my Mentor Aaron, Tutor Igor and the use of the 
 [Top](#table-of-content)
 # Deployment
 
-## Begining
+## Beginning
 
 - I have used the cloud-based IDE [Gitpod](https://gitpod.io/) and [GitHub](http://github.com/) as a free git repository hosting.
 
