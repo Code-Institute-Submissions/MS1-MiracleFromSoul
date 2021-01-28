@@ -39,7 +39,7 @@ personalized piece of art - via contact section.
 - ### Regular Visitor Goals
     1. As a Regular Visitor, I want to be able to navigate the website with ease
     2. As a Regular Visitor, I want to be able to navigate all of this application's features.
-    3. As a Regular Visitor, I want to find out about the artist, who they are and what inspires them, know they story.
+    3. As a Regular Visitor, I want to find out about the artist, who they are and what inspires them, know their story.
     4. As a Regular Visitor, I want to see artist's work.
 
 - ### Commercial Visitor Goals
@@ -64,7 +64,7 @@ multiple-page application, the page reload time can have a negative impact on UX
 ### Templates
 
 - Website uses bootstrap single-page application (SPA) template called "Mentor" and can be downloaded [here](https://bootstrapmade.com/mentor-free-education-bootstrap-theme/). 
-Template was heavily customize by me for the purposes of this project. Read more [below](#other).
+Template was heavily customized by me for the purposes of this project. Read more [below](#other).
 
 - Template contains series of links to libraries stored in files that I have copied from the template's folder (folders "vendor" and "js" in assets).
 
@@ -84,7 +84,7 @@ Template was heavily customize by me for the purposes of this project. Read more
 
 ### Typography
 
-- [Font](https://fonts.google.com/) Caveat Brush was used throughout the project, as per artist's advice to keep it consistant with the logos artist is using outside this page.
+- [Font](https://fonts.google.com/) Caveat Brush was used throughout the project, as per artist's advice to keep it consistent with the logo artist is using outside this page.
 
 - [IcoFont](https://icofont.com/) icons for social media links in footer were imported along with the single page application template 
 
@@ -102,7 +102,7 @@ All images come from the pictures taken by the artist herself:
 
 - Wireframe was developed using [Figma](https://www.figma.com/)
 
-- Wireframe of this single page application can be seen in browser [here](https://www.figma.com/proto/lThdyqeH1xkHiQkp9kkOMN/Miracle-from-Soul?node-id=22%3A17&scaling=min-zoom)
+- Wireframe of this single page application can be seen in the browser [here](https://www.figma.com/proto/lThdyqeH1xkHiQkp9kkOMN/Miracle-from-Soul?node-id=22%3A17&scaling=min-zoom)
 or in the documentation folder in this project in .jpg file.
 
 [Top](#table-of-content)
@@ -116,7 +116,7 @@ Website allows user to find out about the artist's life and inspirations, view t
 
 - **Gallery** - allows users to view artist's work, find out information about each individual painting (work's title & size of painting).
 
-- **Contact** - allows users to send email directly to artists. Users are encouraged to order personalized piece of art, to provide links and ispirations to help artist understand what users need.
+- **Contact** - allows users to send email directly to artists. Users are encouraged to order personalized piece of art, to provide links and inspirations to help artist understand what users need.
 
 - **Social Media** links open in new tab and so far only Facebook and Instagram links take user directly to artist's accounts. 
 Artist doesn't have Twitter or Skype account as of now, therefore those links take user to generic location of the two applications.
@@ -125,7 +125,9 @@ Artist doesn't have Twitter or Skype account as of now, therefore those links ta
 
 - **Purchase** - feature will be added, allowing users to purchase pieces of art directly via website. **Buy** button will be added to each individual image in gallery and the trolley icon will be added in header.
 
-- **EN/PL** - feature will be added, allowing users to switch between English and Polish version of the website, where the whole content will be translated to Polish language.
+- **Arranged painting** - feature will be added, allowing user to see the painting from the Gallery in arranged environment (hanging on the wall, surrounded by furniture, etc.), to help potential buyers imagine how the painting would look like in the their own room, office, etc. Each picture in the Gallery, when clicked, will take user to separate window, where 2-3 more images will be displayed along with additional information.
+
+- **EN/PL** - feature will be added, allowing users to switch between the English and the Polish version of the website, where the whole content will be translated to the Polish language.
 
 [Top](#table-of-content)
 # Technologies Used
@@ -196,7 +198,7 @@ Artist doesn't have Twitter or Skype account as of now, therefore those links ta
 
 ### Excessive code
 
-Due to the use of [templates](#templates), some extra code that seems excesive, can be found throughout the project. 
+Due to the use of [templates](#templates), some extra code that seems excesive can be found throughout the project. 
 I removed the parts of the code that seemed unnecessary, since whole sections were removed while styling templates 
 for the purposes of this project. Some parts of the code still seem unrelated to the project, but when removed cripple 
 the website in some ways and cause issues with styling, layout or functionality. I have allocated hours at the time to 
@@ -215,70 +217,84 @@ Code of the original template I have used can beviewed here: [HTML](documentatio
 ### Lessons learned
 
 The use of bootstrap templates theoretically makes work more efficient, since it provides big parts of code. However, if
-one does not posesses in-depth knowledge of the topic, it can be then time consuming to then tailor the code for ones own
+one does not possesses in-depth knowledge of the topic, it can be then time-consuming to then tailor the code for ones own
 purposes.
 
 In the process of removing the excessive code, I have reduced half the lines of code in index.html and over 2/3 in style.css files.
 The remaining lines of code where all looked into and, as I have mentioned already, I have learned about functionalities and 
 features (like hero image carousel, etc.), that were in the end not applied to this project.
-However, through trial and error, I found out that certain lines of code, even tough they seemed unrelated, when removed,
+However, through trial and error, I found out that certain lines of code, even though they seemed unrelated, when removed,
 cause certain parts of website to crash.
 
 [Top](#table-of-content)
 # Testing
 
 ## General
-I have performed thorough testing of this project's website and all of it's functionalities. Also all features within this README file were tested.
+I have performed thorough testing of this project's website and all of its functionalities. Also, all features within this README file were tested.
 
-- The CSS code was tested using [Jigsaw](https://jigsaw.w3.org/css-validator/validator) and produced some minor errors that I have cleared - [RESULTS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flucascegielski.github.io%2FMS1-MiracleFromSoul%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- The CSS code was tested using [Jigsaw](https://jigsaw.w3.org/css-validator/validator) and produced some errors. Read more [here](#bugs) - [RESULTS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flucascegielski.github.io%2FMS1-MiracleFromSoul%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 - The HTML code was tested using [W3C Validator](https://validator.w3.org/nu/#textarea) and produced no errors - [RESULTS](https://validator.w3.org/nu/?doc=https%3A%2F%2Flucascegielski.github.io%2FMS1-MiracleFromSoul%2F)
 
-## Testing User Stories from USer Experience (UX) Section
+## Testing User Stories from User Experience (UX) Section
 
 - ### Regular Visitor Goals
-    1. As a Regular Visitor, I want to be able to navigate the website with ease
+    1. As a Regular Visitor, I want to be able to navigate the website with ease - ![ScreenShot](documentation/screenshots/navbar.jpg)
         - Website is free of pop-ups and the colour palette used makes it easy to read.
         - Navbar is stuck to the top of the screen, therefore accessible at any time.
-        - Website was fitted with the back-to-top button, that is always placed convieniently at the bottom corner of the screen. When clicked or tapped, takes user to the very top of the page.
+        - Website was fitted with the back-to-top button, which is always placed conveniently at the bottom corner of the screen. When clicked or tapped, takes user to the very top of the page.
 
     2. As a Regular Visitor, I want to be able to navigate all of this application's features.
         - When entering the website, user is greeted with clear and simple navigation bar, showing clear access to each part of the application.
         - Navbar being stuck at the top of the screen allows user to locate all features quickly.
         - Links to social media are located both in navbar and in the footer, so can be accessed with ease.
 
-    3. As a Regular Visitor, I want to find out about the artist, who they are and what inspires them, know they story.
+    3. As a Regular Visitor, I want to find out about the artist, who they are and what inspires them, know their story - ![ScreenShot](documentation/screenshots/about.jpg)
         - Font used throughout the project gives personal touch and artistic feeling of being in the "right" place.
         - Hero image on the home page presents artist's work of art, so user is immediately shown artist's creation upon entering website.
         - The About section is located conveniently just below the home page, for easy access.
         - The About section presents user with information who the artist is and what inspires them. Also informs user about their technique.
 
-    4. As a Regular Visitor, I want to see artist's work.
+    4. As a Regular Visitor, I want to see artist's work - ![ScreenShot](documentation/screenshots/gallery.jpg)
         - The Gallery page can be accessed from navbar via link.
-        - Gallery section contains very limited text (name and size of the painting) to allow user to focus on viewing the paintings - ![ScreenShot](documentation/screenshots/gallery.jpg)
+        - Gallery section contains very limited text (name and size of the painting) to allow user to focus on viewing the paintings.
     
 - ### Commercial Visitor Goals
     1. As a Commercial Visitor, I want to find out who the artist is.
+        - The About section is located conveniently just below the home page, for easy access.
+        - The About section presents user with information who the artist is and what inspires them. Also informs user about their technique.
+    
     2. As a Commercial Visitor, I want to see artist's work and be able to purchase it.
-    3. As a Commercial Visitor, I want to be able to get in touch with the artist via multiple means of contact.
-    4. As a Commercial Visitor, I want to be able to order personalized piece of art.
+        - The Gallery section of the website will be equipped with the price information and the "Purchase" button, which will be introduced in the later stage of development.
+        - Visitor will be able to add this item to a trolley, where they will be presented with additional information about payment options, shipping options and more.
+        - Additionaly, when the pictures are clicked on, visitor will see more images showing this particular piece of art arranged in a room.
+
+    3. As a Commercial Visitor, I want to be able to get in touch with the artist via multiple means of contact  - ![ScreenShot](documentation/screenshots/footer.jpg)
+        - Link to contact form is clearly visible from the navbar on the top of the page.
+        - Links to artist's social media can be accessed from both navbar (via Social Media link) or from the footer.
+        - All links to social media open in a new window when clicked, to assure intuitive use.
+
+    4. As a Commercial Visitor, I want to be able to order personalized piece of art - ![ScreenShot](documentation/screenshots/contact.jpg)
+        - Piece of text located within Contact section informs visitor they can order personalized piece of art, by providing certain when contacting artist.
 
 ## Further Testing
 Browsers:
 
-- project was tested in Chrome browser only. Mozilla and Firefox browser where crashing my laptop when installed. I tried to fix this issue, but it seems that due to equipment mulfunction, I can only test this project in Chrome.
+- Project was tested by myself in Chrome browser only. Mozilla and Firefox browser were crashing my laptop when installed. I tried to fix this issue, but it seems that due to equipment malfunction, I could only test this project in Chrome.
+
+- Testing using Mozilla and Firefox browsers was done by a friend, who said that Mozilla takes longer than Firefox to open the website, and that no other issues were spotted.
 
 Desktop, Tablet & Mobile view:
 
-- Website's responsivness was tested on mobile devices with a use of:
+- Website's responsiveness was tested on mobile devices with a use of:
 
     - ["Am I responsive"](http://ami.responsivedesign.is/#) facility.
 
     - Google Chrome DevTools.
 
-- Application was viewed and tested on desktop, laptop, iPad Air, Huawei P30 Lite and Samsung Galaxy A3.
+- Application was viewed and tested on desktop, laptop, iPad Air, Huawei P30 Lite, and Samsung Galaxy A3.
 
-- Most testing was done to assure correct look and that all links work properly.
+- Most testing was done to assure the correct look and that all links work properly.
 
 - Friends were asked to also test the application for bugs, etc.
 
@@ -286,13 +302,13 @@ Links:
 
 - all links on this website were thoroughly tested,
 
-- all tags in navbar lead to correct section of the website
+- all tags in navbar lead to the correct section of the website
 
-- all links open in new window (social media links & credits link in footer),
+- all links open in a new window (social media links & credits link in footer),
 
 Contact Form:
 
-- Contact form was tested by trying to input incorrect data (i.e. letters in numbers field) or no data at all and displays error before the submit can be done.
+- Contact form was tested by trying to input the incorrect data (i.e. letters in numbers field) or no data at all and displays error before the submit can be done.
 
 - When valid data is input, form sends data as intended. Code Institute formdump was used in this project.
 
@@ -317,6 +333,8 @@ Most bugs were cleared thanks to my Mentor Aaron, Tutor Igor and the use of the 
 
 - When you look at the dropdown menu taking you to social media links in navbar (in mobile or tablet view), the arrow turns into a rectangle.
 
+- CSS Validator produced no errors when code was presented by direct input or uploaded file (style.css). CSS Validator produced 66 errors, when code was presented by URI. None of the errors was related to style.css. All errors were related to files that came with the template.
+
 [Top](#table-of-content)
 # Deployment
 
@@ -326,7 +344,7 @@ Most bugs were cleared thanks to my Mentor Aaron, Tutor Igor and the use of the 
 
 - As first step, I have installed the [Gitpod extension](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki) for Chrome browser that I use.
 
-- Next, I created repository on [Github](https://github.com/) using the gitpod template provided by the [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template).
+- Next, I created the repository on [Github](https://github.com/) using the gitpod template provided by the [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template).
 
 - Then, I clicked on "Gitpod" button, which opened workspace in Gitpod, where I created my project.
 
